@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MN mayodi — Portfolio</title>
+<meta name="description" content="Professional portfolio of Your Name — ICT student, developer.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="nav__inner">
+    <a href="#home" class="nav__brand">
+      <span class="nav__brand-bracket">  MN <br></span>mayodi<span class="nav__brand-bracket"></span>
+    </a>
+    <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav__links" id="navLinks">
+      <a href="#home" class="nav__link">home</a>
+      <a href="#about" class="nav__link">about</a>
+      <a href="#education" class="nav__link">education</a>
+      <a href="#skills" class="nav__link">skills</a>
+      <a href="#projects" class="nav__link">projects</a>
+      <a href="#experience" class="nav__link">experience</a>
+      <a href="#cv" class="nav__link">cv</a>
+      <a href="#contact" class="nav__link nav__link--cta">contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HOME / HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero__bg" aria-hidden="true">
+      <div class="hero__grid"></div>
+    </div>
+    <div class="hero__content">
+      <div class="hero__text">
+        <p class="eyebrow"></p>
+        <h1 class="hero__title">
+    Hi, I'm <span class="text-accent">Mayodi Nawanjali</span>.<br>
+
+    <span class="hero__subtitle-title">
+        I turn ideas into practical digital experiences through <span class="hero__typed" id="typed"></span>
+    </span>
+</h1>
+        <p class="hero__subtitle">
+          ICT undergraduate at the University of Vavuniya with an interest in
+          data analysis and artificial intelligence, software development.
+        </p>
+        <div class="hero__actions">
+          <a href="#projects" class="btn btn--primary">View Projects</a>
+          <a href="#contact" class="btn btn--ghost">Get in Touch</a>
+        </div>
+      </div>
+      <div class="hero__photo-wrap">
+        <img src="assets/profile.JPEG" alt="Mayodi Nawanjali" class="hero__photo">
+      </div>
+    </div>
+    <a href="#about" class="scroll-cue" aria-label="Scroll to about section">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section">
+    <div class="section__inner">
+      <p class="eyebrow"></p>
+      <h2 class="section__title">About Me</h2>
+      <div class="about__grid">
+        <div class="about__text">
+          <p>
+            I'm a Information Communication Technology / ICT undergraduate with a strong interest in
+            <strong>Data Analysts,ICT programming,Web development,Database Management Systems
+            Data Structures and Algorithms </strong>. I enjoy turning ambiguous problems into clear,
+            working systems — which is exactly what drew me to System Analysis and
+            Design as a discipline.
+          </p>
+          <p>
+            Outside of coursework, I like <strong> open-source
+            contribution, UI design, competitive programming, reading about tech</strong>.
+            My career objective is to <strong> grow into a Data Analysts role
+            where I can work on products that genuinely help people</strong>.
+          </p>
+        </div>
+        <div class="about__stats">
+          <div class="stat">
+            <span class="stat__num">3+</span>
+            <span class="stat__label">Projects Built</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">2+</span>
+            <span class="stat__label">Years Studying ICT</span>
+          </div>
+          <div class="stat">
+            <span class="stat__num">10+</span>
+            <span class="stat__label">Technologies Used</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="section section--alt">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 03_education.log--></p>
+      <h2 class="section__title">Education</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">[2024 — Present]</span>
+            <h3>BICT(Hons) in Information and Communication Technology</h3>
+            <p class="timeline__org">University of Vavuniya, Faculty of Technological Studies</p>
+            <p>
+              Relevant coursework: System Analysis &amp; Design, Web Application Development,
+              Database Management Systems, Data Structures &amp; Algorithms,
+              Cyber Security
+            </p>
+            <p class="timeline__highlight">Academic highlight: [High GPA, a project top grade,Hydra CTF certificate,Workshop participate</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">[2019 — 2021]</span>
+            <h3>Secondary Education — MO/Wellassa National School</h3>
+            <p class="timeline__org">[Monaragala]</p>
+            <p>[G.C.E. A/L followed Technology Stream]</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="section">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 04_skills.json--></p>
+      <h2 class="section__title">Skills</h2>
+      <div class="skills__grid">
+        <div class="skill-card">
+          <h3>Languages</h3>
+          <ul class="skill-list">
+            <li>JavaScript</li>
+            <li>Python</li>
+            <li>Java</li>
+            <li>HTML</li>
+			<li>C#</li>
+			<li>C++</li>
+			<li>CSS</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Web &amp; Tools</h3>
+          <ul class="skill-list">
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>Git & GitHub</li>
+            <li>Figma</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Data &amp; Systems</h3>
+          <ul class="skill-list">
+            <li>SQL</li>
+            <li>MariaDB</li>
+            <li>UML</li>
+            <li>System Analysis & Design</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h3>Soft Skills</h3>
+          <ul class="skill-list">
+            <li>Problem-solving</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+			<li>Time Management</li>
+            <li>Leadership</li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="section section--alt">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 05_projects.map()--></p>
+      <h2 class="section__title">Projects</h2>
+
+      <article class="project-card">
+        <div class="project-card__media">
+         <!-- <div class="project-card__placeholder">Screenshot</div>-->
+		  <img src="assets/vehicle.JPEG" alt="Vehicle Service Management System">
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__num">01</span>
+          <h3>Vehicle Service Management System</h3>
+          <p class="project-card__problem">
+          <strong>Problem:</strong>
+           Manual vehicle service booking and billing can be time-consumingand difficult to manage.</p>
+          <p class="project-card__contribution">
+          <strong>My contribution:</strong>
+	      Designed the user interface and implemented customer,vehicle, service booking and billing forms.</p>
+          <div class="tag-list">
+            <span class="tag">C#</span>
+            <span class="tag">WinForms</span>
+            <span class="tag">SQL</span>
+          </div>
+          <div class="project-card__links">
+            <a href="#" class="link-btn">Live Demo →</a>
+            <a href="#" class="link-btn link-btn--outline">GitHub →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card project-card--reverse">
+        <div class="project-card__media">
+          		  <img src="assets/movie.JPEG" alt="movie">
+
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__num">02</span>
+          <h3>Movie Store – Online Movie Website UI</h3>
+          <p class="project-card__problem"><strong>Problem:</strong> Movie users need an attractive and organized interface to discover movies</p>
+          <p class="project-card__contribution"><strong>My contribution:</strong> Designed the website interface using Figma</p>
+          <div class="tag-list">
+            <span class="tag">Figma</span>
+            <span class="tag">UI/UX Design</span>
+          </div>
+          <div class="project-card__links">
+            <a href="#" class="link-btn">Live Demo →</a>
+            <a href="https://www.linkedin.com/posts/mayodinawanjali_design-movie-web-site-using-figma-excited-ugcPost-7464171642039164928--y5-/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFyeg9sBh4NfOYPePTQqW38pzB2TiSDtSCM" class="link-btn link-btn--outline">linkedin →</a>
+          </div>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-card__media">
+         <img src="assets/ceramo.JPEG" alt="ceramo">
+
+        </div>
+        <div class="project-card__body">
+          <span class="project-card__num">03</span>
+          <h3>Ceramo – Ceramic & Pottery Shopping Website</h3>
+          <p class="project-card__problem"><strong>Problem:</strong> Customers need a simple and attractive online platform to explore ceramic and pottery products...
+		  </p>
+          <p class="project-card__contribution"><strong>My contribution:</strong> Developed the website using HTML</p>
+          <div class="tag-list">
+            <span class="tag">HTKL</span>
+            <span class="tag">CSS</span>
+			<span class="tag">JAVA SCRIPT</span>
+          </div>
+          <div class="project-card__links">
+            <a href="#" class="link-btn">Live Demo →</a>
+            <a href="#" class="link-btn link-btn--outline">linkedin →</a>
+          </div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="section">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 06_experience.log--></p>
+      <h2 class="section__title">Experience &amp; Activities</h2>
+      <div class="timeline">
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">[2026 —2026]</span>
+            <h3>Cybersecurity CTF Challenge Participant</h3>
+            <p class="timeline__org">Mozilla Club/LEO Club</p>
+            <p>Participated in a Capture The Flag (CTF) cybersecurity
+            challenge, solving practical security-related problems
+            and developing skills in problem-solving, logical thinking,
+            and cybersecurity concepts.</p>
+          </div>
+        </div>
+        <div class="timeline__item">
+          <div class="timeline__dot"></div>
+          <div class="timeline__content">
+            <span class="timeline__date">[2025 — Now]</span>
+            <h3>Mozilla Club Volunteer</h3>
+            <p class="timeline__org">Mozilla Club</p>
+            <p>Contributed as a volunteer in Mozilla-related activities and community initiatives, gaining experience in collaboration,
+			communication, technology, and contributing to an open-source community.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CV ============ -->
+  <section id="cv" class="section section--alt cv">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 07_resume.pdf--></p>
+      <h2 class="section__title">CV / Resume</h2>
+      <p class="cv__text">
+        Download my most recent CV for full details on my education, skills and experience.
+      </p>
+      <a href="D:/portfolio/assets/professional.pdf" download class="btn btn--primary">Download CV (PDF) ↓</a>
+      <p class="cv__note"> Download my CV to learn more about my education,
+            skills, projects, and experience.</p>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section contact">
+    <div class="section__inner">
+      <p class="eyebrow"><!--// 08_contact.send()--></p>
+      <h2 class="section__title">Get In Touch</h2>
+      <p class="contact__text">
+        Open to internship and entry-level opportunities. Reach out through any of the
+        channels below.
+      </p>
+      <div class="contact__links">
+        <a href="mailto:mayodinawanjali@gmail.com" class="contact__link">
+          <span class="contact__label">Email</span>
+          <span class="contact__value">mayodinawanjali@gmail.com</span>
+        </a>
+        <a href="https://linkedin.com/in/mayodinawanjali" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__label">LinkedIn</span>
+          <span class="contact__value">linkedin.com/in/mayodinawanjali</span>
+        </a>
+        <a href="https://github.com/mayodinawanjali" target="_blank" rel="noopener" class="contact__link">
+          <span class="contact__label">GitHub</span>
+          <span class="contact__value">github.com/mayodinawanjali</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>&copy; <span id="year"></span> mayodinawanjali Built with HTML, CSS &amp; JavaScript.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
